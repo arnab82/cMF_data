@@ -1,0 +1,756 @@
+ Input energy:    -2721.66784100
+IDX001:DIM1024:001|002|003|004|005|
+IDX002:DIM0064:006|007|008|
+IDX003:DIM1024:009|010|011|012|013|
+ ooCMF Iter:    1 Total= -2721.667465505001 Active= -37.820094996188 G=     4.37e-03
+ ooCMF Iter:    2 Total= -2721.667475184633 Active= -37.820104675820 G=     1.98e-03
+ ooCMF Iter:    3 Total= -2721.667475876142 Active= -37.820105367330 G=     1.07e-05
+ ooCMF Iter:    4 Total= -2721.667475876180 Active= -37.820105367368 G=     1.71e-06
+ ooCMF Iter:    5 Total= -2721.667475876181 Active= -37.820105367369 G=     4.97e-07
+ ooCMF Iter:    6 Total= -2721.667475876181 Active= -37.820105367369 G=     9.75e-08
+ ooCMF Iter:    7 Total= -2721.667475876181 Active= -37.820105367369 G=     2.51e-08
+*ooCMF Iter:    8 Total= -2721.667475876181 Active= -37.820105367369 G=     8.19e-09
+ * Status: success
+
+ * Candidate solution
+    Final objective value:     -2.721667e+03
+
+ * Found with
+    Algorithm:     BFGS
+
+ * Convergence measures
+    |x - x'|               = 7.16e-09 ≰ 0.0e+00
+    |x - x'|/|x'|          = 3.45e-06 ≰ 0.0e+00
+    |f(x) - f(x')|         = 0.00e+00 ≤ 0.0e+00
+    |f(x) - f(x')|/|f(x')| = 0.00e+00 ≤ 0.0e+00
+    |g(x)|                 = 5.67e-09 ≤ 1.0e-08
+
+ * Work counters
+    Seconds run:   0  (vs limit Inf)
+    Iterations:    7
+    f(x) calls:    16
+    ∇f(x) calls:   16
+
+*ooCMF -2721.66747588 
+  0.293058 seconds (286.96 k allocations: 95.342 MiB)
+ ooCMF Iter:    1 Total= -2721.667465505001 Active= -37.820094996188 G=     4.37e-03
+ ooCMF Iter:    2 Total= -2721.667475184593 Active= -37.820104675781 G=     1.98e-03
+ ooCMF Iter:    3 Total= -2721.667475876138 Active= -37.820105367326 G=     1.11e-05
+ ooCMF Iter:    4 Total= -2721.667475876168 Active= -37.820105367356 G=     5.84e-06
+ ooCMF Iter:    5 Total= -2721.667475876177 Active= -37.820105367365 G=     4.29e-06
+ ooCMF Iter:    6 Total= -2721.667475876180 Active= -37.820105367367 G=     2.85e-06
+ ooCMF Iter:    7 Total= -2721.667475876181 Active= -37.820105367369 G=     2.36e-07
+ ooCMF Iter:    8 Total= -2721.667475876181 Active= -37.820105367369 G=     4.16e-08
+ ooCMF Iter:    9 Total= -2721.667475876181 Active= -37.820105367369 G=     1.08e-08
+ * Status: success
+
+ * Candidate solution
+    Final objective value:     -2.721667e+03
+
+ * Found with
+    Algorithm:     Conjugate Gradient
+
+ * Convergence measures
+    |x - x'|               = 9.16e-09 ≰ 0.0e+00
+    |x - x'|/|x'|          = 4.41e-06 ≰ 0.0e+00
+    |f(x) - f(x')|         = 0.00e+00 ≤ 0.0e+00
+    |f(x) - f(x')|/|f(x')| = 0.00e+00 ≤ 0.0e+00
+    |g(x)|                 = 4.35e-09 ≤ 1.0e-08
+
+ * Work counters
+    Seconds run:   0  (vs limit Inf)
+    Iterations:    8
+    f(x) calls:    23
+    ∇f(x) calls:   16
+
+*ooCMF -2721.66747588 
+  0.338385 seconds (332.01 k allocations: 106.790 MiB)
+ Step:    1 E: -2721.667465505001 G: 4.4e-03
+ Step:    2 E: -2721.667467324240 G: 3.9e-03
+ Step:    3 E: -2721.667468807922 G: 3.6e-03
+ Step:    4 E: -2721.667470026401 G: 3.2e-03
+ Step:    5 E: -2721.667471031132 G: 2.9e-03
+ Step:    6 E: -2721.667471861540 G: 2.7e-03
+ Step:    7 E: -2721.667472548783 G: 2.4e-03
+ Step:    8 E: -2721.667473117979 G: 2.2e-03
+ Step:    9 E: -2721.667473589611 G: 2.0e-03
+ Step:   10 E: -2721.667473980501 G: 1.8e-03
+ Step:   11 E: -2721.667474304519 G: 1.7e-03
+ Step:   12 E: -2721.667474573128 G: 1.5e-03
+ Step:   13 E: -2721.667474795815 G: 1.4e-03
+ Step:   14 E: -2721.667474980439 G: 1.3e-03
+ Step:   15 E: -2721.667475133506 G: 1.2e-03
+ Step:   16 E: -2721.667475260413 G: 1.0e-03
+ Step:   17 E: -2721.667475365633 G: 9.6e-04
+ Step:   18 E: -2721.667475452871 G: 8.7e-04
+ Step:   19 E: -2721.667475525202 G: 7.9e-04
+ Step:   20 E: -2721.667475585172 G: 7.2e-04
+ Step:   21 E: -2721.667475634896 G: 6.6e-04
+ Step:   22 E: -2721.667475676123 G: 6.0e-04
+ Step:   23 E: -2721.667475710305 G: 5.4e-04
+ Step:   24 E: -2721.667475738646 G: 5.0e-04
+ Step:   25 E: -2721.667475762145 G: 4.5e-04
+ Step:   26 E: -2721.667475781629 G: 4.1e-04
+ Step:   27 E: -2721.667475797783 G: 3.7e-04
+ Step:   28 E: -2721.667475811178 G: 3.4e-04
+ Step:   29 E: -2721.667475822284 G: 3.1e-04
+ Step:   30 E: -2721.667475831493 G: 2.8e-04
+ Step:   31 E: -2721.667475839128 G: 2.6e-04
+ Step:   32 E: -2721.667475845458 G: 2.3e-04
+ Step:   33 E: -2721.667475850707 G: 2.1e-04
+ Step:   34 E: -2721.667475855059 G: 1.9e-04
+ Step:   35 E: -2721.667475858668 G: 1.8e-04
+ Step:   36 E: -2721.667475861660 G: 1.6e-04
+ Step:   37 E: -2721.667475864141 G: 1.5e-04
+ Step:   38 E: -2721.667475866198 G: 1.3e-04
+ Step:   39 E: -2721.667475867903 G: 1.2e-04
+ Step:   40 E: -2721.667475869318 G: 1.1e-04
+ Step:   41 E: -2721.667475870490 G: 1.0e-04
+ Step:   42 E: -2721.667475871463 G: 9.2e-05
+ Step:   43 E: -2721.667475872269 G: 8.4e-05
+ Step:   44 E: -2721.667475872937 G: 7.6e-05
+ Step:   45 E: -2721.667475873491 G: 6.9e-05
+ Step:   46 E: -2721.667475873950 G: 6.3e-05
+ Step:   47 E: -2721.667475874332 G: 5.8e-05
+ Step:   48 E: -2721.667475874648 G: 5.2e-05
+ Step:   49 E: -2721.667475874910 G: 4.8e-05
+ Step:   50 E: -2721.667475875127 G: 4.3e-05
+ Step:   51 E: -2721.667475875307 G: 4.0e-05
+ Step:   52 E: -2721.667475875456 G: 3.6e-05
+ Step:   53 E: -2721.667475875580 G: 3.3e-05
+ Step:   54 E: -2721.667475875683 G: 3.0e-05
+ Step:   55 E: -2721.667475875768 G: 2.7e-05
+ Step:   56 E: -2721.667475875839 G: 2.5e-05
+ Step:   57 E: -2721.667475875897 G: 2.3e-05
+ Step:   58 E: -2721.667475875945 G: 2.1e-05
+ Step:   59 E: -2721.667475875985 G: 1.9e-05
+ Step:   60 E: -2721.667475876019 G: 1.7e-05
+ Step:   61 E: -2721.667475876047 G: 1.5e-05
+ Step:   62 E: -2721.667475876070 G: 1.4e-05
+ Step:   63 E: -2721.667475876089 G: 1.3e-05
+ Step:   64 E: -2721.667475876105 G: 1.2e-05
+ Step:   65 E: -2721.667475876117 G: 1.1e-05
+ Step:   66 E: -2721.667475876129 G: 9.7e-06
+ Step:   67 E: -2721.667475876137 G: 8.8e-06
+ Step:   68 E: -2721.667475876145 G: 8.0e-06
+ Step:   69 E: -2721.667475876151 G: 7.3e-06
+ Step:   70 E: -2721.667475876156 G: 6.7e-06
+ Step:   71 E: -2721.667475876161 G: 6.1e-06
+ Step:   72 E: -2721.667475876164 G: 5.5e-06
+ Step:   73 E: -2721.667475876167 G: 5.0e-06
+ Step:   74 E: -2721.667475876169 G: 4.6e-06
+ Step:   75 E: -2721.667475876171 G: 4.2e-06
+ Step:   76 E: -2721.667475876173 G: 3.8e-06
+ Step:   77 E: -2721.667475876175 G: 3.5e-06
+ Step:   78 E: -2721.667475876176 G: 3.2e-06
+ Step:   79 E: -2721.667475876176 G: 2.9e-06
+ Step:   80 E: -2721.667475876177 G: 2.6e-06
+ Step:   81 E: -2721.667475876178 G: 2.4e-06
+ Step:   82 E: -2721.667475876178 G: 2.2e-06
+ Step:   83 E: -2721.667475876179 G: 2.0e-06
+ Step:   84 E: -2721.667475876179 G: 1.8e-06
+ Step:   85 E: -2721.667475876180 G: 1.6e-06
+ Step:   86 E: -2721.667475876180 G: 1.5e-06
+ Step:   87 E: -2721.667475876180 G: 1.4e-06
+ Step:   88 E: -2721.667475876180 G: 1.2e-06
+ Step:   89 E: -2721.667475876181 G: 1.1e-06
+ Step:   90 E: -2721.667475876181 G: 1.0e-06
+ Step:   91 E: -2721.667475876181 G: 9.3e-07
+ Step:   92 E: -2721.667475876181 G: 8.5e-07
+ Step:   93 E: -2721.667475876181 G: 7.7e-07
+ Step:   94 E: -2721.667475876181 G: 7.0e-07
+ Step:   95 E: -2721.667475876181 G: 6.4e-07
+ Step:   96 E: -2721.667475876181 G: 5.8e-07
+ Step:   97 E: -2721.667475876181 G: 5.3e-07
+ Step:   98 E: -2721.667475876181 G: 4.8e-07
+ Step:   99 E: -2721.667475876181 G: 4.4e-07
+ Step:  100 E: -2721.667475876181 G: 4.0e-07
+ Step:  101 E: -2721.667475876181 G: 3.7e-07
+ Step:  102 E: -2721.667475876181 G: 3.3e-07
+ Step:  103 E: -2721.667475876181 G: 3.0e-07
+ Step:  104 E: -2721.667475876181 G: 2.8e-07
+ Step:  105 E: -2721.667475876181 G: 2.5e-07
+ Step:  106 E: -2721.667475876181 G: 2.3e-07
+ Step:  107 E: -2721.667475876181 G: 2.1e-07
+ Step:  108 E: -2721.667475876181 G: 1.9e-07
+ Step:  109 E: -2721.667475876181 G: 1.7e-07
+ Step:  110 E: -2721.667475876181 G: 1.6e-07
+ Step:  111 E: -2721.667475876181 G: 1.4e-07
+ Step:  112 E: -2721.667475876181 G: 1.3e-07
+ Step:  113 E: -2721.667475876181 G: 1.2e-07
+ Step:  114 E: -2721.667475876181 G: 1.1e-07
+ Step:  115 E: -2721.667475876181 G: 9.8e-08
+ Step:  116 E: -2721.667475876181 G: 9.0e-08
+ Step:  117 E: -2721.667475876181 G: 8.2e-08
+ Step:  118 E: -2721.667475876181 G: 7.4e-08
+ Step:  119 E: -2721.667475876181 G: 6.8e-08
+ Step:  120 E: -2721.667475876181 G: 6.2e-08
+ Step:  121 E: -2721.667475876181 G: 5.6e-08
+ Step:  122 E: -2721.667475876181 G: 5.1e-08
+ Step:  123 E: -2721.667475876181 G: 4.7e-08
+ Step:  124 E: -2721.667475876181 G: 4.2e-08
+ Step:  125 E: -2721.667475876181 G: 3.9e-08
+ Step:  126 E: -2721.667475876181 G: 3.5e-08
+ Step:  127 E: -2721.667475876181 G: 3.2e-08
+ Step:  128 E: -2721.667475876181 G: 2.9e-08
+ Step:  129 E: -2721.667475876181 G: 2.7e-08
+ Step:  130 E: -2721.667475876181 G: 2.4e-08
+ Step:  131 E: -2721.667475876181 G: 2.2e-08
+ Step:  132 E: -2721.667475876181 G: 2.0e-08
+ Step:  133 E: -2721.667475876181 G: 1.8e-08
+ Step:  134 E: -2721.667475876181 G: 1.7e-08
+ Step:  135 E: -2721.667475876181 G: 1.5e-08
+ Step:  136 E: -2721.667475876181 G: 1.4e-08
+ Step:  137 E: -2721.667475876181 G: 1.3e-08
+ Step:  138 E: -2721.667475876181 G: 1.1e-08
+ Step:  139 E: -2721.667475876181 G: 1.0e-08
+*Step:  140 E: -2721.667475876181 G: 9.5e-09
+  1.276057 seconds (981.35 k allocations: 458.292 MiB)
+ Solve OO-CMF with DIIS
+ ooCMF Iter:    1 Total= -2721.667467324240 G=    3.947e-03 #SS:    1
+ ooCMF Iter:    2 Total= -2721.667475183549 G=    1.395e-03 #SS:    2
+ ooCMF Iter:    3 Total= -2721.667475875971 G=    2.900e-05 #SS:    3
+ ooCMF Iter:    4 Total= -2721.667475872098 G=    1.304e-04 #SS:    4
+ ooCMF Iter:    5 Total= -2721.667475856004 G=    2.897e-04 #SS:    5
+ ooCMF Iter:    6 Total= -2721.667475872441 G=    1.250e-04 #SS:    6
+ ooCMF Iter:    7 Total= -2721.667475876032 G=    2.320e-05 #SS:    7
+ ooCMF Iter:    8 Total= -2721.667475876146 G=    1.406e-05 #SS:    8
+ ooCMF Iter:    9 Total= -2721.667475876179 G=    3.300e-06 #SS:    9
+ ooCMF Iter:   10 Total= -2721.667475876180 G=    2.898e-06 #SS:   10
+ ooCMF Iter:   11 Total= -2721.667475876181 G=    8.176e-07 #SS:   11
+ ooCMF Iter:   12 Total= -2721.667475876181 G=    9.984e-07 #SS:   12
+ ooCMF Iter:   13 Total= -2721.667475876181 G=    9.225e-07 #SS:   13
+ ooCMF Iter:   14 Total= -2721.667475876181 G=    2.323e-07 #SS:   14
+ ooCMF Iter:   15 Total= -2721.667475876181 G=    1.453e-07 #SS:   15
+ ooCMF Iter:   16 Total= -2721.667475876181 G=    1.367e-07 #SS:   16
+ ooCMF Iter:   17 Total= -2721.667475876181 G=    1.315e-07 #SS:   17
+ ooCMF Iter:   18 Total= -2721.667475876181 G=    1.285e-07 #SS:   18
+ ooCMF Iter:   19 Total= -2721.667475876181 G=    1.286e-07 #SS:   19
+ ooCMF Iter:   20 Total= -2721.667475876181 G=    1.254e-07 #SS:   20
+ ooCMF Iter:   21 Total= -2721.667475876181 G=    1.260e-07 #SS:   21
+ ooCMF Iter:   22 Total= -2721.667475876181 G=    1.247e-07 #SS:   22
+ ooCMF Iter:   23 Total= -2721.667475876181 G=    1.229e-07 #SS:   23
+ ooCMF Iter:   24 Total= -2721.667475876181 G=    1.212e-07 #SS:   24
+ ooCMF Iter:   25 Total= -2721.667475876181 G=    9.045e-08 #SS:   24
+*ooCMF Iter:   26 Total= -2721.667475876181 G=    7.827e-10 #SS:   24
+  0.592595 seconds (4.03 M allocations: 290.164 MiB)
+ Solve OO-CMF with DIIS
+ ooCMF Iter:    1 Total= -2721.667475876084 G=    2.116e-05 #SS:    1
+ ooCMF Iter:    2 Total= -2721.667475875935 G=    3.215e-05 #SS:    2
+ ooCMF Iter:    3 Total= -2721.667475875933 G=    3.222e-05 #SS:    3
+ ooCMF Iter:    4 Total= -2721.667475875916 G=    3.298e-05 #SS:    4
+ ooCMF Iter:    5 Total= -2721.667475875916 G=    3.298e-05 #SS:    5
+ ooCMF Iter:    6 Total= -2721.667475875901 G=    3.335e-05 #SS:    6
+ ooCMF Iter:    7 Total= -2721.667475875903 G=    3.327e-05 #SS:    7
+ ooCMF Iter:    8 Total= -2721.667475875620 G=    5.925e-05 #SS:    8
+ ooCMF Iter:    9 Total= -2721.667475875971 G=    3.634e-05 #SS:    9
+ ooCMF Iter:   10 Total= -2721.667475876176 G=    5.826e-06 #SS:   10
+ ooCMF Iter:   11 Total= -2721.667475876177 G=    5.525e-06 #SS:   11
+ ooCMF Iter:   12 Total= -2721.667475876181 G=    3.048e-06 #SS:   12
+ ooCMF Iter:   13 Total= -2721.667475876181 G=    2.487e-06 #SS:   13
+ ooCMF Iter:   14 Total= -2721.667475876182 G=    5.986e-07 #SS:   14
+ ooCMF Iter:   15 Total= -2721.667475876182 G=    6.635e-07 #SS:   15
+ ooCMF Iter:   16 Total= -2721.667475876182 G=    4.718e-07 #SS:   16
+ ooCMF Iter:   17 Total= -2721.667475876182 G=    3.229e-07 #SS:   17
+ ooCMF Iter:   18 Total= -2721.667475876182 G=    3.582e-07 #SS:   18
+ ooCMF Iter:   19 Total= -2721.667475876182 G=    1.180e-07 #SS:   19
+ ooCMF Iter:   20 Total= -2721.667475876182 G=    1.141e-07 #SS:   20
+ ooCMF Iter:   21 Total= -2721.667475876182 G=    1.140e-07 #SS:   21
+ ooCMF Iter:   22 Total= -2721.667475876182 G=    1.143e-07 #SS:   22
+ ooCMF Iter:   23 Total= -2721.667475876182 G=    1.145e-07 #SS:   23
+ ooCMF Iter:   24 Total= -2721.667475876182 G=    1.148e-07 #SS:   24
+ ooCMF Iter:   25 Total= -2721.667475876182 G=    1.151e-07 #SS:   24
+ ooCMF Iter:   26 Total= -2721.667475876182 G=    1.012e-07 #SS:   24
+ ooCMF Iter:   27 Total= -2721.667475876182 G=    8.767e-08 #SS:   24
+ ooCMF Iter:   28 Total= -2721.667475876182 G=    8.945e-08 #SS:   24
+ ooCMF Iter:   29 Total= -2721.667475876182 G=    4.245e-08 #SS:   24
+ ooCMF Iter:   30 Total= -2721.667475876182 G=    6.983e-08 #SS:   24
+ ooCMF Iter:   31 Total= -2721.667475876182 G=    2.274e-07 #SS:   24
+ ooCMF Iter:   32 Total= -2721.667475876182 G=    1.674e-06 #SS:   24
+ ooCMF Iter:   33 Total= -2721.667475876182 G=    9.463e-08 #SS:   24
+ ooCMF Iter:   34 Total= -2721.667475876182 G=    3.478e-07 #SS:   24
+ ooCMF Iter:   35 Total= -2721.667475876182 G=    2.124e-07 #SS:   24
+ ooCMF Iter:   36 Total= -2721.667475876182 G=    7.214e-08 #SS:   24
+ ooCMF Iter:   37 Total= -2721.667475876182 G=    1.678e-07 #SS:   24
+ ooCMF Iter:   38 Total= -2721.667475876182 G=    1.169e-07 #SS:   24
+ ooCMF Iter:   39 Total= -2721.667475876182 G=    1.245e-07 #SS:   24
+ ooCMF Iter:   40 Total= -2721.667475876182 G=    1.256e-07 #SS:   24
+ ooCMF Iter:   41 Total= -2721.667475876182 G=    1.107e-07 #SS:   24
+ ooCMF Iter:   42 Total= -2721.667475876182 G=    2.737e-07 #SS:   24
+ ooCMF Iter:   43 Total= -2721.667475876182 G=    1.124e-06 #SS:   24
+ ooCMF Iter:   44 Total= -2721.667475876182 G=    1.181e-06 #SS:   24
+ ooCMF Iter:   45 Total= -2721.667475876182 G=    1.233e-06 #SS:   24
+ ooCMF Iter:   46 Total= -2721.667475876182 G=    1.309e-06 #SS:   24
+ ooCMF Iter:   47 Total= -2721.667475876182 G=    1.438e-06 #SS:   24
+ ooCMF Iter:   48 Total= -2721.667475876181 G=    1.682e-06 #SS:   24
+ ooCMF Iter:   49 Total= -2721.667475876181 G=    3.048e-06 #SS:   24
+ ooCMF Iter:   50 Total= -2721.667475876150 G=    1.377e-05 #SS:   24
+ ooCMF Iter:   51 Total= -2721.667475876180 G=    2.928e-06 #SS:   24
+ ooCMF Iter:   52 Total= -2721.667475876181 G=    2.183e-06 #SS:   24
+ ooCMF Iter:   53 Total= -2721.667475876182 G=    5.145e-07 #SS:   24
+ ooCMF Iter:   54 Total= -2721.667475876182 G=    5.212e-07 #SS:   24
+ ooCMF Iter:   55 Total= -2721.667475876182 G=    1.917e-07 #SS:   24
+ ooCMF Iter:   56 Total= -2721.667475876182 G=    6.502e-07 #SS:   24
+ ooCMF Iter:   57 Total= -2721.667475876182 G=    9.875e-07 #SS:   24
+ ooCMF Iter:   58 Total= -2721.667475876174 G=    5.072e-06 #SS:   24
+ ooCMF Iter:   59 Total= -2721.667475876182 G=    2.467e-07 #SS:   24
+ ooCMF Iter:   60 Total= -2721.667475876182 G=    1.225e-06 #SS:   24
+ ooCMF Iter:   61 Total= -2721.667475876181 G=    1.267e-06 #SS:   24
+ ooCMF Iter:   62 Total= -2721.667475876182 G=    1.152e-06 #SS:   24
+ ooCMF Iter:   63 Total= -2721.667475876182 G=    4.971e-07 #SS:   24
+ ooCMF Iter:   64 Total= -2721.667475876182 G=    3.391e-07 #SS:   24
+ ooCMF Iter:   65 Total= -2721.667475876182 G=    4.053e-07 #SS:   24
+ ooCMF Iter:   66 Total= -2721.667475876182 G=    6.145e-07 #SS:   24
+ ooCMF Iter:   67 Total= -2721.667475876182 G=    6.685e-07 #SS:   24
+ ooCMF Iter:   68 Total= -2721.667475876182 G=    7.843e-07 #SS:   24
+ ooCMF Iter:   69 Total= -2721.667475876182 G=    7.846e-07 #SS:   24
+ ooCMF Iter:   70 Total= -2721.667475876182 G=    7.858e-07 #SS:   24
+ ooCMF Iter:   71 Total= -2721.667475876182 G=    7.900e-07 #SS:   24
+ ooCMF Iter:   72 Total= -2721.667475876182 G=    7.999e-07 #SS:   24
+ ooCMF Iter:   73 Total= -2721.667475876182 G=    7.910e-07 #SS:   24
+ ooCMF Iter:   74 Total= -2721.667475876182 G=    5.500e-07 #SS:   24
+ ooCMF Iter:   75 Total= -2721.667475876182 G=    3.150e-07 #SS:   24
+ ooCMF Iter:   76 Total= -2721.667475876182 G=    1.232e-06 #SS:   24
+ ooCMF Iter:   77 Total= -2721.667475876181 G=    1.990e-06 #SS:   24
+ ooCMF Iter:   78 Total= -2721.667475876182 G=    8.663e-07 #SS:   24
+ ooCMF Iter:   79 Total= -2721.667475876182 G=    3.688e-07 #SS:   24
+ ooCMF Iter:   80 Total= -2721.667475876182 G=    4.499e-07 #SS:   24
+ ooCMF Iter:   81 Total= -2721.667475876182 G=    7.265e-07 #SS:   24
+ ooCMF Iter:   82 Total= -2721.667475876182 G=    6.729e-07 #SS:   24
+ ooCMF Iter:   83 Total= -2721.667475876181 G=    1.150e-06 #SS:   24
+ ooCMF Iter:   84 Total= -2721.667475876181 G=    1.444e-06 #SS:   24
+ ooCMF Iter:   85 Total= -2721.667475876182 G=    8.886e-07 #SS:   24
+ ooCMF Iter:   86 Total= -2721.667475876182 G=    9.855e-07 #SS:   24
+ ooCMF Iter:   87 Total= -2721.667475876181 G=    1.992e-06 #SS:   24
+ ooCMF Iter:   88 Total= -2721.667475876182 G=    6.906e-07 #SS:   24
+ ooCMF Iter:   89 Total= -2721.667475876182 G=    3.705e-07 #SS:   24
+ ooCMF Iter:   90 Total= -2721.667475876182 G=    2.694e-07 #SS:   24
+ ooCMF Iter:   91 Total= -2721.667475876182 G=    1.096e-06 #SS:   24
+ ooCMF Iter:   92 Total= -2721.667475876182 G=    4.831e-07 #SS:   24
+ ooCMF Iter:   93 Total= -2721.667475876182 G=    7.079e-07 #SS:   24
+ ooCMF Iter:   94 Total= -2721.667475876182 G=    6.621e-07 #SS:   24
+ ooCMF Iter:   95 Total= -2721.667475876182 G=    8.146e-07 #SS:   24
+ ooCMF Iter:   96 Total= -2721.667475876182 G=    7.570e-07 #SS:   24
+ ooCMF Iter:   97 Total= -2721.667475876182 G=    7.919e-07 #SS:   24
+ ooCMF Iter:   98 Total= -2721.667475876182 G=    7.011e-07 #SS:   24
+ ooCMF Iter:   99 Total= -2721.667475876182 G=    7.754e-07 #SS:   24
+ ooCMF Iter:  100 Total= -2721.667475876182 G=    5.735e-07 #SS:   24
+ ooCMF Iter:  101 Total= -2721.667475876182 G=    6.543e-07 #SS:   24
+ ooCMF Iter:  102 Total= -2721.667475876182 G=    4.775e-07 #SS:   24
+ ooCMF Iter:  103 Total= -2721.667475876182 G=    3.820e-07 #SS:   24
+ ooCMF Iter:  104 Total= -2721.667475876182 G=    6.312e-07 #SS:   24
+ ooCMF Iter:  105 Total= -2721.667475876182 G=    6.145e-07 #SS:   24
+ ooCMF Iter:  106 Total= -2721.667475876182 G=    5.205e-07 #SS:   24
+ ooCMF Iter:  107 Total= -2721.667475876182 G=    4.959e-07 #SS:   24
+ ooCMF Iter:  108 Total= -2721.667475876182 G=    6.617e-07 #SS:   24
+ ooCMF Iter:  109 Total= -2721.667475876182 G=    6.623e-07 #SS:   24
+ ooCMF Iter:  110 Total= -2721.667475876181 G=    9.569e-07 #SS:   24
+ ooCMF Iter:  111 Total= -2721.667475876182 G=    3.724e-07 #SS:   24
+ ooCMF Iter:  112 Total= -2721.667475876182 G=    7.368e-07 #SS:   24
+ ooCMF Iter:  113 Total= -2721.667475876182 G=    9.785e-07 #SS:   24
+ ooCMF Iter:  114 Total= -2721.667475876182 G=    1.072e-06 #SS:   24
+ ooCMF Iter:  115 Total= -2721.667475876181 G=    1.071e-06 #SS:   24
+ ooCMF Iter:  116 Total= -2721.667475876182 G=    1.675e-07 #SS:   24
+ ooCMF Iter:  117 Total= -2721.667475876182 G=    1.594e-07 #SS:   24
+ ooCMF Iter:  118 Total= -2721.667475876182 G=    1.773e-07 #SS:   24
+ ooCMF Iter:  119 Total= -2721.667475876182 G=    2.324e-07 #SS:   24
+ ooCMF Iter:  120 Total= -2721.667475876182 G=    5.368e-07 #SS:   24
+ ooCMF Iter:  121 Total= -2721.667475876182 G=    3.937e-07 #SS:   24
+ ooCMF Iter:  122 Total= -2721.667475876182 G=    5.482e-07 #SS:   24
+ ooCMF Iter:  123 Total= -2721.667475876182 G=    3.752e-07 #SS:   24
+ ooCMF Iter:  124 Total= -2721.667475876182 G=    3.770e-07 #SS:   24
+ ooCMF Iter:  125 Total= -2721.667475876182 G=    3.428e-07 #SS:   24
+ ooCMF Iter:  126 Total= -2721.667475876181 G=    1.062e-06 #SS:   24
+ ooCMF Iter:  127 Total= -2721.667475876182 G=    4.153e-07 #SS:   24
+ ooCMF Iter:  128 Total= -2721.667475876182 G=    7.818e-07 #SS:   24
+ ooCMF Iter:  129 Total= -2721.667475876182 G=    5.102e-07 #SS:   24
+ ooCMF Iter:  130 Total= -2721.667475876182 G=    1.546e-07 #SS:   24
+ ooCMF Iter:  131 Total= -2721.667475876182 G=    2.772e-07 #SS:   24
+ ooCMF Iter:  132 Total= -2721.667475876182 G=    3.990e-07 #SS:   24
+ ooCMF Iter:  133 Total= -2721.667475876182 G=    4.647e-07 #SS:   24
+ ooCMF Iter:  134 Total= -2721.667475876182 G=    3.573e-07 #SS:   24
+ ooCMF Iter:  135 Total= -2721.667475876182 G=    4.854e-07 #SS:   24
+ ooCMF Iter:  136 Total= -2721.667475876182 G=    5.857e-07 #SS:   24
+ ooCMF Iter:  137 Total= -2721.667475876181 G=    1.454e-06 #SS:   24
+ ooCMF Iter:  138 Total= -2721.667475876182 G=    1.331e-06 #SS:   24
+ ooCMF Iter:  139 Total= -2721.667475876181 G=    1.526e-06 #SS:   24
+ ooCMF Iter:  140 Total= -2721.667475876182 G=    1.105e-06 #SS:   24
+ ooCMF Iter:  141 Total= -2721.667475876182 G=    7.161e-07 #SS:   24
+ ooCMF Iter:  142 Total= -2721.667475876182 G=    7.210e-07 #SS:   24
+ ooCMF Iter:  143 Total= -2721.667475876182 G=    5.209e-07 #SS:   24
+ ooCMF Iter:  144 Total= -2721.667475876182 G=    4.697e-07 #SS:   24
+ ooCMF Iter:  145 Total= -2721.667475876182 G=    7.541e-07 #SS:   24
+ ooCMF Iter:  146 Total= -2721.667475876182 G=    2.965e-07 #SS:   24
+ ooCMF Iter:  147 Total= -2721.667475876181 G=    1.298e-06 #SS:   24
+ ooCMF Iter:  148 Total= -2721.667475876182 G=    3.560e-07 #SS:   24
+ ooCMF Iter:  149 Total= -2721.667475876182 G=    2.821e-07 #SS:   24
+ ooCMF Iter:  150 Total= -2721.667475876182 G=    3.235e-07 #SS:   24
+ ooCMF Iter:  151 Total= -2721.667475876182 G=    4.030e-07 #SS:   24
+ ooCMF Iter:  152 Total= -2721.667475876182 G=    3.972e-07 #SS:   24
+ ooCMF Iter:  153 Total= -2721.667475876182 G=    3.356e-07 #SS:   24
+ ooCMF Iter:  154 Total= -2721.667475876182 G=    3.407e-07 #SS:   24
+ ooCMF Iter:  155 Total= -2721.667475876182 G=    4.334e-07 #SS:   24
+ ooCMF Iter:  156 Total= -2721.667475876182 G=    4.733e-07 #SS:   24
+ ooCMF Iter:  157 Total= -2721.667475876182 G=    4.845e-07 #SS:   24
+ ooCMF Iter:  158 Total= -2721.667475876182 G=    4.348e-07 #SS:   24
+ ooCMF Iter:  159 Total= -2721.667475876182 G=    4.860e-07 #SS:   24
+ ooCMF Iter:  160 Total= -2721.667475876182 G=    6.867e-07 #SS:   24
+ ooCMF Iter:  161 Total= -2721.667475876182 G=    9.429e-07 #SS:   24
+ ooCMF Iter:  162 Total= -2721.667475876182 G=    8.112e-07 #SS:   24
+ ooCMF Iter:  163 Total= -2721.667475876182 G=    5.155e-07 #SS:   24
+ ooCMF Iter:  164 Total= -2721.667475876181 G=    1.170e-06 #SS:   24
+ ooCMF Iter:  165 Total= -2721.667475876181 G=    9.694e-07 #SS:   24
+ ooCMF Iter:  166 Total= -2721.667475876181 G=    9.490e-07 #SS:   24
+ ooCMF Iter:  167 Total= -2721.667475876181 G=    1.132e-06 #SS:   24
+ ooCMF Iter:  168 Total= -2721.667475876182 G=    9.004e-07 #SS:   24
+ ooCMF Iter:  169 Total= -2721.667475876181 G=    1.202e-06 #SS:   24
+ ooCMF Iter:  170 Total= -2721.667475876181 G=    1.203e-06 #SS:   24
+ ooCMF Iter:  171 Total= -2721.667475876182 G=    1.076e-06 #SS:   24
+ ooCMF Iter:  172 Total= -2721.667475876181 G=    1.263e-06 #SS:   24
+ ooCMF Iter:  173 Total= -2721.667475876181 G=    1.693e-06 #SS:   24
+ ooCMF Iter:  174 Total= -2721.667475876181 G=    1.511e-06 #SS:   24
+ ooCMF Iter:  175 Total= -2721.667475876182 G=    7.757e-07 #SS:   24
+ ooCMF Iter:  176 Total= -2721.667475876182 G=    6.361e-07 #SS:   24
+ ooCMF Iter:  177 Total= -2721.667475876182 G=    3.969e-07 #SS:   24
+ ooCMF Iter:  178 Total= -2721.667475876182 G=    4.163e-07 #SS:   24
+ ooCMF Iter:  179 Total= -2721.667475876182 G=    4.107e-07 #SS:   24
+ ooCMF Iter:  180 Total= -2721.667475876182 G=    4.059e-07 #SS:   24
+ ooCMF Iter:  181 Total= -2721.667475876182 G=    4.057e-07 #SS:   24
+ ooCMF Iter:  182 Total= -2721.667475876182 G=    4.035e-07 #SS:   24
+ ooCMF Iter:  183 Total= -2721.667475876182 G=    4.855e-07 #SS:   24
+ ooCMF Iter:  184 Total= -2721.667475876182 G=    1.116e-06 #SS:   24
+ ooCMF Iter:  185 Total= -2721.667475876182 G=    7.815e-07 #SS:   24
+ ooCMF Iter:  186 Total= -2721.667475876182 G=    2.961e-07 #SS:   24
+ ooCMF Iter:  187 Total= -2721.667475876181 G=    2.997e-06 #SS:   24
+ ooCMF Iter:  188 Total= -2721.667475876182 G=    5.539e-07 #SS:   24
+ ooCMF Iter:  189 Total= -2721.667475876179 G=    4.393e-06 #SS:   24
+ ooCMF Iter:  190 Total= -2721.667475876181 G=    1.997e-06 #SS:   24
+ ooCMF Iter:  191 Total= -2721.667475876182 G=    1.457e-06 #SS:   24
+ ooCMF Iter:  192 Total= -2721.667475876182 G=    1.419e-06 #SS:   24
+ ooCMF Iter:  193 Total= -2721.667475876182 G=    1.532e-06 #SS:   24
+ ooCMF Iter:  194 Total= -2721.667475876182 G=    1.257e-06 #SS:   24
+ ooCMF Iter:  195 Total= -2721.667475876181 G=    2.795e-06 #SS:   24
+ ooCMF Iter:  196 Total= -2721.667475876182 G=    1.709e-06 #SS:   24
+ ooCMF Iter:  197 Total= -2721.667475876181 G=    1.638e-06 #SS:   24
+ ooCMF Iter:  198 Total= -2721.667475876182 G=    9.650e-07 #SS:   24
+ ooCMF Iter:  199 Total= -2721.667475876182 G=    1.068e-06 #SS:   24
+ ooCMF Iter:  200 Total= -2721.667475876181 G=    1.328e-06 #SS:   24
+ ooCMF Iter:  201 Total= -2721.667475876181 G=    2.134e-06 #SS:   24
+ ooCMF Iter:  202 Total= -2721.667475876176 G=    5.323e-06 #SS:   24
+ ooCMF Iter:  203 Total= -2721.667475876181 G=    1.665e-06 #SS:   24
+ ooCMF Iter:  204 Total= -2721.667475876182 G=    7.764e-07 #SS:   24
+ ooCMF Iter:  205 Total= -2721.667475876182 G=    3.534e-07 #SS:   24
+ ooCMF Iter:  206 Total= -2721.667475876182 G=    6.115e-07 #SS:   24
+ ooCMF Iter:  207 Total= -2721.667475876182 G=    1.234e-06 #SS:   24
+ ooCMF Iter:  208 Total= -2721.667475876182 G=    1.594e-06 #SS:   24
+ ooCMF Iter:  209 Total= -2721.667475876182 G=    1.769e-06 #SS:   24
+ ooCMF Iter:  210 Total= -2721.667475876173 G=    5.964e-06 #SS:   24
+ ooCMF Iter:  211 Total= -2721.667475876173 G=    6.039e-06 #SS:   24
+ ooCMF Iter:  212 Total= -2721.667475876150 G=    1.028e-05 #SS:   24
+ ooCMF Iter:  213 Total= -2721.667475876181 G=    2.088e-06 #SS:   24
+ ooCMF Iter:  214 Total= -2721.667475876182 G=    1.454e-06 #SS:   24
+ ooCMF Iter:  215 Total= -2721.667475876182 G=    1.369e-06 #SS:   24
+ ooCMF Iter:  216 Total= -2721.667475876182 G=    9.262e-07 #SS:   24
+ ooCMF Iter:  217 Total= -2721.667475876182 G=    8.763e-07 #SS:   24
+ ooCMF Iter:  218 Total= -2721.667475876182 G=    1.202e-06 #SS:   24
+ ooCMF Iter:  219 Total= -2721.667475876181 G=    2.241e-06 #SS:   24
+ ooCMF Iter:  220 Total= -2721.667475876182 G=    3.609e-07 #SS:   24
+ ooCMF Iter:  221 Total= -2721.667475876182 G=    5.523e-07 #SS:   24
+ ooCMF Iter:  222 Total= -2721.667475876182 G=    9.915e-07 #SS:   24
+ ooCMF Iter:  223 Total= -2721.667475876182 G=    1.259e-06 #SS:   24
+ ooCMF Iter:  224 Total= -2721.667475876182 G=    1.382e-06 #SS:   24
+ ooCMF Iter:  225 Total= -2721.667475876181 G=    1.850e-06 #SS:   24
+ ooCMF Iter:  226 Total= -2721.667475876182 G=    1.930e-06 #SS:   24
+ ooCMF Iter:  227 Total= -2721.667475876179 G=    4.440e-06 #SS:   24
+ ooCMF Iter:  228 Total= -2721.667475876181 G=    1.309e-06 #SS:   24
+ ooCMF Iter:  229 Total= -2721.667475876181 G=    2.070e-06 #SS:   24
+ ooCMF Iter:  230 Total= -2721.667475876182 G=    7.871e-07 #SS:   24
+ ooCMF Iter:  231 Total= -2721.667475876182 G=    9.813e-07 #SS:   24
+ ooCMF Iter:  232 Total= -2721.667475876182 G=    1.128e-06 #SS:   24
+ ooCMF Iter:  233 Total= -2721.667475876182 G=    1.168e-06 #SS:   24
+ ooCMF Iter:  234 Total= -2721.667475876182 G=    1.358e-06 #SS:   24
+ ooCMF Iter:  235 Total= -2721.667475876182 G=    1.482e-06 #SS:   24
+ ooCMF Iter:  236 Total= -2721.667475876181 G=    1.490e-06 #SS:   24
+ ooCMF Iter:  237 Total= -2721.667475876181 G=    1.475e-06 #SS:   24
+ ooCMF Iter:  238 Total= -2721.667475876181 G=    1.012e-06 #SS:   24
+ ooCMF Iter:  239 Total= -2721.667475876182 G=    1.038e-06 #SS:   24
+ ooCMF Iter:  240 Total= -2721.667475876182 G=    9.980e-07 #SS:   24
+ ooCMF Iter:  241 Total= -2721.667475876182 G=    1.043e-06 #SS:   24
+ ooCMF Iter:  242 Total= -2721.667475876181 G=    1.183e-06 #SS:   24
+ ooCMF Iter:  243 Total= -2721.667475876182 G=    1.430e-06 #SS:   24
+ ooCMF Iter:  244 Total= -2721.667475876181 G=    1.525e-06 #SS:   24
+ ooCMF Iter:  245 Total= -2721.667475876181 G=    2.420e-06 #SS:   24
+ ooCMF Iter:  246 Total= -2721.667475876040 G=    2.370e-05 #SS:   24
+ ooCMF Iter:  247 Total= -2721.667475876028 G=    2.748e-05 #SS:   24
+ ooCMF Iter:  248 Total= -2721.667475875817 G=    4.217e-05 #SS:   24
+ ooCMF Iter:  249 Total= -2721.667475875805 G=    4.297e-05 #SS:   24
+ ooCMF Iter:  250 Total= -2721.667475875680 G=    4.924e-05 #SS:   24
+ ooCMF Iter:  251 Total= -2721.667475876182 G=    9.922e-07 #SS:   24
+ ooCMF Iter:  252 Total= -2721.667475876182 G=    1.008e-06 #SS:   24
+ ooCMF Iter:  253 Total= -2721.667475876181 G=    1.474e-06 #SS:   24
+ ooCMF Iter:  254 Total= -2721.667475876181 G=    1.854e-06 #SS:   24
+ ooCMF Iter:  255 Total= -2721.667475876181 G=    1.923e-06 #SS:   24
+ ooCMF Iter:  256 Total= -2721.667475876181 G=    1.944e-06 #SS:   24
+ ooCMF Iter:  257 Total= -2721.667475876181 G=    1.991e-06 #SS:   24
+ ooCMF Iter:  258 Total= -2721.667475876181 G=    1.261e-06 #SS:   24
+ ooCMF Iter:  259 Total= -2721.667475876181 G=    1.351e-06 #SS:   24
+ ooCMF Iter:  260 Total= -2721.667475876181 G=    1.420e-06 #SS:   24
+ ooCMF Iter:  261 Total= -2721.667475876180 G=    2.296e-06 #SS:   24
+ ooCMF Iter:  262 Total= -2721.667475876181 G=    1.931e-06 #SS:   24
+ ooCMF Iter:  263 Total= -2721.667475876181 G=    1.966e-06 #SS:   24
+ ooCMF Iter:  264 Total= -2721.667475876181 G=    1.983e-06 #SS:   24
+ ooCMF Iter:  265 Total= -2721.667475876180 G=    2.156e-06 #SS:   24
+ ooCMF Iter:  266 Total= -2721.667475876180 G=    2.371e-06 #SS:   24
+ ooCMF Iter:  267 Total= -2721.667475876180 G=    2.220e-06 #SS:   24
+ ooCMF Iter:  268 Total= -2721.667475876180 G=    2.198e-06 #SS:   24
+ ooCMF Iter:  269 Total= -2721.667475876181 G=    1.846e-06 #SS:   24
+ ooCMF Iter:  270 Total= -2721.667475876178 G=    3.014e-06 #SS:   24
+ ooCMF Iter:  271 Total= -2721.667475876178 G=    4.052e-06 #SS:   24
+ ooCMF Iter:  272 Total= -2721.667475876181 G=    2.535e-06 #SS:   24
+ ooCMF Iter:  273 Total= -2721.667475876181 G=    1.459e-06 #SS:   24
+ ooCMF Iter:  274 Total= -2721.667475876182 G=    1.076e-06 #SS:   24
+ ooCMF Iter:  275 Total= -2721.667475876182 G=    8.944e-07 #SS:   24
+ ooCMF Iter:  276 Total= -2721.667475876182 G=    1.212e-06 #SS:   24
+ ooCMF Iter:  277 Total= -2721.667475876181 G=    1.631e-06 #SS:   24
+ ooCMF Iter:  278 Total= -2721.667475876181 G=    2.332e-06 #SS:   24
+ ooCMF Iter:  279 Total= -2721.667475876181 G=    1.707e-06 #SS:   24
+ ooCMF Iter:  280 Total= -2721.667475876182 G=    7.592e-07 #SS:   24
+ ooCMF Iter:  281 Total= -2721.667475876182 G=    8.382e-07 #SS:   24
+ ooCMF Iter:  282 Total= -2721.667475876181 G=    1.378e-06 #SS:   24
+ ooCMF Iter:  283 Total= -2721.667475876182 G=    1.029e-06 #SS:   24
+ ooCMF Iter:  284 Total= -2721.667475876182 G=    6.699e-07 #SS:   24
+ ooCMF Iter:  285 Total= -2721.667475876181 G=    2.597e-06 #SS:   24
+ ooCMF Iter:  286 Total= -2721.667475876180 G=    3.672e-06 #SS:   24
+ ooCMF Iter:  287 Total= -2721.667475876181 G=    2.122e-06 #SS:   24
+ ooCMF Iter:  288 Total= -2721.667475876180 G=    3.176e-06 #SS:   24
+ ooCMF Iter:  289 Total= -2721.667475876177 G=    5.381e-06 #SS:   24
+ ooCMF Iter:  290 Total= -2721.667475876181 G=    8.828e-07 #SS:   24
+ ooCMF Iter:  291 Total= -2721.667475876182 G=    7.473e-07 #SS:   24
+ ooCMF Iter:  292 Total= -2721.667475876182 G=    3.482e-07 #SS:   24
+ ooCMF Iter:  293 Total= -2721.667475876182 G=    6.480e-07 #SS:   24
+ ooCMF Iter:  294 Total= -2721.667475876182 G=    1.669e-07 #SS:   24
+ ooCMF Iter:  295 Total= -2721.667475876182 G=    1.664e-07 #SS:   24
+ ooCMF Iter:  296 Total= -2721.667475876182 G=    1.321e-07 #SS:   24
+ ooCMF Iter:  297 Total= -2721.667475876182 G=    1.049e-07 #SS:   24
+ ooCMF Iter:  298 Total= -2721.667475876182 G=    1.059e-07 #SS:   24
+ ooCMF Iter:  299 Total= -2721.667475876182 G=    1.100e-07 #SS:   24
+ ooCMF Iter:  300 Total= -2721.667475876182 G=    1.152e-07 #SS:   24
+ ooCMF Iter:  301 Total= -2721.667475876182 G=    1.158e-07 #SS:   24
+ ooCMF Iter:  302 Total= -2721.667475876182 G=    1.162e-07 #SS:   24
+ ooCMF Iter:  303 Total= -2721.667475876182 G=    1.090e-07 #SS:   24
+ ooCMF Iter:  304 Total= -2721.667475876181 G=    1.077e-06 #SS:   24
+ ooCMF Iter:  305 Total= -2721.667475876182 G=    9.911e-07 #SS:   24
+ ooCMF Iter:  306 Total= -2721.667475876182 G=    1.259e-06 #SS:   24
+ ooCMF Iter:  307 Total= -2721.667475876182 G=    9.162e-07 #SS:   24
+ ooCMF Iter:  308 Total= -2721.667475876182 G=    9.643e-07 #SS:   24
+ ooCMF Iter:  309 Total= -2721.667475876182 G=    1.404e-06 #SS:   24
+ ooCMF Iter:  310 Total= -2721.667475876181 G=    1.896e-06 #SS:   24
+ ooCMF Iter:  311 Total= -2721.667475876182 G=    9.150e-07 #SS:   24
+ ooCMF Iter:  312 Total= -2721.667475876181 G=    2.035e-06 #SS:   24
+ ooCMF Iter:  313 Total= -2721.667475876175 G=    5.572e-06 #SS:   24
+ ooCMF Iter:  314 Total= -2721.667475876175 G=    5.542e-06 #SS:   24
+ ooCMF Iter:  315 Total= -2721.667475876182 G=    1.257e-06 #SS:   24
+ ooCMF Iter:  316 Total= -2721.667475876176 G=    4.637e-06 #SS:   24
+ ooCMF Iter:  317 Total= -2721.667475876171 G=    6.329e-06 #SS:   24
+ ooCMF Iter:  318 Total= -2721.667475876182 G=    3.568e-07 #SS:   24
+ ooCMF Iter:  319 Total= -2721.667475876181 G=    1.977e-06 #SS:   24
+ ooCMF Iter:  320 Total= -2721.667475876176 G=    4.477e-06 #SS:   24
+ ooCMF Iter:  321 Total= -2721.667475876167 G=    7.196e-06 #SS:   24
+ ooCMF Iter:  322 Total= -2721.667475876155 G=    9.706e-06 #SS:   24
+ ooCMF Iter:  323 Total= -2721.667475876161 G=    8.525e-06 #SS:   24
+ ooCMF Iter:  324 Total= -2721.667475876162 G=    8.339e-06 #SS:   24
+ ooCMF Iter:  325 Total= -2721.667475876163 G=    8.053e-06 #SS:   24
+ ooCMF Iter:  326 Total= -2721.667475876163 G=    8.093e-06 #SS:   24
+ ooCMF Iter:  327 Total= -2721.667475876164 G=    7.888e-06 #SS:   24
+ ooCMF Iter:  328 Total= -2721.667475876171 G=    6.116e-06 #SS:   24
+ ooCMF Iter:  329 Total= -2721.667475876178 G=    3.802e-06 #SS:   24
+ ooCMF Iter:  330 Total= -2721.667475876181 G=    1.730e-06 #SS:   24
+ ooCMF Iter:  331 Total= -2721.667475876181 G=    1.367e-06 #SS:   24
+ ooCMF Iter:  332 Total= -2721.667475876182 G=    1.004e-06 #SS:   24
+ ooCMF Iter:  333 Total= -2721.667475876181 G=    1.315e-06 #SS:   24
+ ooCMF Iter:  334 Total= -2721.667475876181 G=    1.973e-06 #SS:   24
+ ooCMF Iter:  335 Total= -2721.667475876181 G=    2.042e-06 #SS:   24
+ ooCMF Iter:  336 Total= -2721.667475876181 G=    1.562e-06 #SS:   24
+ ooCMF Iter:  337 Total= -2721.667475876182 G=    9.401e-07 #SS:   24
+ ooCMF Iter:  338 Total= -2721.667475876182 G=    9.361e-07 #SS:   24
+ ooCMF Iter:  339 Total= -2721.667475876182 G=    1.157e-06 #SS:   24
+ ooCMF Iter:  340 Total= -2721.667475876182 G=    1.305e-06 #SS:   24
+ ooCMF Iter:  341 Total= -2721.667475876181 G=    1.624e-06 #SS:   24
+ ooCMF Iter:  342 Total= -2721.667475876181 G=    2.131e-06 #SS:   24
+ ooCMF Iter:  343 Total= -2721.667475876181 G=    2.082e-06 #SS:   24
+ ooCMF Iter:  344 Total= -2721.667475876181 G=    2.188e-06 #SS:   24
+ ooCMF Iter:  345 Total= -2721.667475876181 G=    2.898e-06 #SS:   24
+ ooCMF Iter:  346 Total= -2721.667475876181 G=    2.710e-06 #SS:   24
+ ooCMF Iter:  347 Total= -2721.667475876166 G=    7.818e-06 #SS:   24
+ ooCMF Iter:  348 Total= -2721.667475876181 G=    2.111e-06 #SS:   24
+ ooCMF Iter:  349 Total= -2721.667475876179 G=    3.377e-06 #SS:   24
+ ooCMF Iter:  350 Total= -2721.667475876169 G=    6.692e-06 #SS:   24
+ ooCMF Iter:  351 Total= -2721.667475876174 G=    5.349e-06 #SS:   24
+ ooCMF Iter:  352 Total= -2721.667475876179 G=    3.247e-06 #SS:   24
+ ooCMF Iter:  353 Total= -2721.667475876180 G=    2.336e-06 #SS:   24
+ ooCMF Iter:  354 Total= -2721.667475876180 G=    2.250e-06 #SS:   24
+ ooCMF Iter:  355 Total= -2721.667475876180 G=    2.554e-06 #SS:   24
+ ooCMF Iter:  356 Total= -2721.667475876175 G=    4.764e-06 #SS:   24
+ ooCMF Iter:  357 Total= -2721.667475876162 G=    7.929e-06 #SS:   24
+ ooCMF Iter:  358 Total= -2721.667475876166 G=    7.017e-06 #SS:   24
+ ooCMF Iter:  359 Total= -2721.667475876170 G=    6.322e-06 #SS:   24
+ ooCMF Iter:  360 Total= -2721.667475876173 G=    5.249e-06 #SS:   24
+ ooCMF Iter:  361 Total= -2721.667475876181 G=    2.238e-06 #SS:   24
+ ooCMF Iter:  362 Total= -2721.667475876179 G=    3.186e-06 #SS:   24
+ ooCMF Iter:  363 Total= -2721.667475876182 G=    8.759e-07 #SS:   24
+ ooCMF Iter:  364 Total= -2721.667475876181 G=    1.141e-06 #SS:   24
+ ooCMF Iter:  365 Total= -2721.667475876181 G=    2.046e-06 #SS:   24
+ ooCMF Iter:  366 Total= -2721.667475876175 G=    4.726e-06 #SS:   24
+ ooCMF Iter:  367 Total= -2721.667475876159 G=    8.720e-06 #SS:   24
+ ooCMF Iter:  368 Total= -2721.667475876136 G=    1.267e-05 #SS:   24
+ ooCMF Iter:  369 Total= -2721.667475876177 G=    4.378e-06 #SS:   24
+ ooCMF Iter:  370 Total= -2721.667475876179 G=    2.920e-06 #SS:   24
+ ooCMF Iter:  371 Total= -2721.667475876181 G=    1.848e-06 #SS:   24
+ ooCMF Iter:  372 Total= -2721.667475876163 G=    7.741e-06 #SS:   24
+ ooCMF Iter:  373 Total= -2721.667475876063 G=    1.958e-05 #SS:   24
+ ooCMF Iter:  374 Total= -2721.667475874493 G=    7.480e-05 #SS:   24
+ ooCMF Iter:  375 Total= -2721.667475876106 G=    1.637e-05 #SS:   24
+ ooCMF Iter:  376 Total= -2721.667475876175 G=    5.127e-06 #SS:   24
+ ooCMF Iter:  377 Total= -2721.667475876169 G=    6.435e-06 #SS:   24
+ ooCMF Iter:  378 Total= -2721.667475876179 G=    3.366e-06 #SS:   24
+ ooCMF Iter:  379 Total= -2721.667475876179 G=    3.251e-06 #SS:   24
+ ooCMF Iter:  380 Total= -2721.667475876177 G=    4.144e-06 #SS:   24
+ ooCMF Iter:  381 Total= -2721.667475876177 G=    4.005e-06 #SS:   24
+ ooCMF Iter:  382 Total= -2721.667475876176 G=    4.229e-06 #SS:   24
+ ooCMF Iter:  383 Total= -2721.667475876169 G=    6.885e-06 #SS:   24
+ ooCMF Iter:  384 Total= -2721.667475876169 G=    6.777e-06 #SS:   24
+ ooCMF Iter:  385 Total= -2721.667475876178 G=    3.731e-06 #SS:   24
+ ooCMF Iter:  386 Total= -2721.667475876181 G=    1.705e-06 #SS:   24
+ ooCMF Iter:  387 Total= -2721.667475876181 G=    1.862e-06 #SS:   24
+ ooCMF Iter:  388 Total= -2721.667475875960 G=    2.533e-05 #SS:   24
+ ooCMF Iter:  389 Total= -2721.667475876176 G=    4.242e-06 #SS:   24
+ ooCMF Iter:  390 Total= -2721.667475876131 G=    1.184e-05 #SS:   24
+ ooCMF Iter:  391 Total= -2721.667475876141 G=    1.059e-05 #SS:   24
+ ooCMF Iter:  392 Total= -2721.667475876143 G=    1.036e-05 #SS:   24
+ ooCMF Iter:  393 Total= -2721.667475876158 G=    8.315e-06 #SS:   24
+ ooCMF Iter:  394 Total= -2721.667475876115 G=    1.401e-05 #SS:   24
+ ooCMF Iter:  395 Total= -2721.667475876174 G=    5.136e-06 #SS:   24
+ ooCMF Iter:  396 Total= -2721.667475876176 G=    4.608e-06 #SS:   24
+ ooCMF Iter:  397 Total= -2721.667475876154 G=    9.002e-06 #SS:   24
+ ooCMF Iter:  398 Total= -2721.667475876166 G=    7.181e-06 #SS:   24
+ ooCMF Iter:  399 Total= -2721.667475876124 G=    1.382e-05 #SS:   24
+ ooCMF Iter:  400 Total= -2721.667475876153 G=    9.127e-06 #SS:   24
+ ooCMF Iter:  401 Total= -2721.667475876066 G=    1.786e-05 #SS:   24
+ ooCMF Iter:  402 Total= -2721.667475875985 G=    2.364e-05 #SS:   24
+ ooCMF Iter:  403 Total= -2721.667475876061 G=    1.827e-05 #SS:   24
+ ooCMF Iter:  404 Total= -2721.667475876046 G=    1.998e-05 #SS:   24
+ ooCMF Iter:  405 Total= -2721.667475876164 G=    7.759e-06 #SS:   24
+ ooCMF Iter:  406 Total= -2721.667475876173 G=    5.581e-06 #SS:   24
+ ooCMF Iter:  407 Total= -2721.667475875866 G=    3.265e-05 #SS:   24
+ ooCMF Iter:  408 Total= -2721.667475874859 G=    6.297e-05 #SS:   24
+ ooCMF Iter:  409 Total= -2721.667475875225 G=    5.378e-05 #SS:   24
+ ooCMF Iter:  410 Total= -2721.667475875376 G=    4.835e-05 #SS:   24
+ ooCMF Iter:  411 Total= -2721.667475875069 G=    5.699e-05 #SS:   24
+ ooCMF Iter:  412 Total= -2721.667475875302 G=    5.086e-05 #SS:   24
+ ooCMF Iter:  413 Total= -2721.667475871861 G=    1.213e-04 #SS:   24
+ ooCMF Iter:  414 Total= -2721.667475874871 G=    6.964e-05 #SS:   24
+ ooCMF Iter:  415 Total= -2721.667475875329 G=    4.946e-05 #SS:   24
+ ooCMF Iter:  416 Total= -2721.667475875376 G=    4.717e-05 #SS:   24
+ ooCMF Iter:  417 Total= -2721.667475875765 G=    3.454e-05 #SS:   24
+ ooCMF Iter:  418 Total= -2721.667475876056 G=    2.110e-05 #SS:   24
+ ooCMF Iter:  419 Total= -2721.667475876101 G=    1.646e-05 #SS:   24
+ ooCMF Iter:  420 Total= -2721.667475875963 G=    2.738e-05 #SS:   24
+ ooCMF Iter:  421 Total= -2721.667475876072 G=    2.049e-05 #SS:   24
+ ooCMF Iter:  422 Total= -2721.667475876129 G=    1.375e-05 #SS:   24
+ ooCMF Iter:  423 Total= -2721.667475876114 G=    1.584e-05 #SS:   24
+ ooCMF Iter:  424 Total= -2721.667475876147 G=    1.126e-05 #SS:   24
+ ooCMF Iter:  425 Total= -2721.667475876149 G=    1.078e-05 #SS:   24
+ ooCMF Iter:  426 Total= -2721.667475876162 G=    8.594e-06 #SS:   24
+ ooCMF Iter:  427 Total= -2721.667475876162 G=    8.455e-06 #SS:   24
+ ooCMF Iter:  428 Total= -2721.667475876161 G=    8.788e-06 #SS:   24
+ ooCMF Iter:  429 Total= -2721.667475876162 G=    8.628e-06 #SS:   24
+ ooCMF Iter:  430 Total= -2721.667475876164 G=    8.233e-06 #SS:   24
+ ooCMF Iter:  431 Total= -2721.667475876181 G=    2.320e-06 #SS:   24
+ ooCMF Iter:  432 Total= -2721.667475876171 G=    5.843e-06 #SS:   24
+ ooCMF Iter:  433 Total= -2721.667475876176 G=    5.488e-06 #SS:   24
+ ooCMF Iter:  434 Total= -2721.667475876145 G=    1.241e-05 #SS:   24
+ ooCMF Iter:  435 Total= -2721.667475876068 G=    2.172e-05 #SS:   24
+ ooCMF Iter:  436 Total= -2721.667475876061 G=    2.220e-05 #SS:   24
+ ooCMF Iter:  437 Total= -2721.667475876109 G=    1.839e-05 #SS:   24
+ ooCMF Iter:  438 Total= -2721.667475876071 G=    2.327e-05 #SS:   24
+ ooCMF Iter:  439 Total= -2721.667475876025 G=    2.697e-05 #SS:   24
+ ooCMF Iter:  440 Total= -2721.667475876044 G=    2.343e-05 #SS:   24
+ ooCMF Iter:  441 Total= -2721.667475876007 G=    2.781e-05 #SS:   24
+ ooCMF Iter:  442 Total= -2721.667475876081 G=    1.935e-05 #SS:   24
+ ooCMF Iter:  443 Total= -2721.667475876084 G=    2.014e-05 #SS:   24
+ ooCMF Iter:  444 Total= -2721.667475876093 G=    1.863e-05 #SS:   24
+ ooCMF Iter:  445 Total= -2721.667475875817 G=    2.691e-05 #SS:   24
+ ooCMF Iter:  446 Total= -2721.667475876141 G=    9.272e-06 #SS:   24
+ ooCMF Iter:  447 Total= -2721.667475876151 G=    7.580e-06 #SS:   24
+ ooCMF Iter:  448 Total= -2721.667475875801 G=    3.087e-05 #SS:   24
+ ooCMF Iter:  449 Total= -2721.667475875262 G=    5.080e-05 #SS:   24
+ ooCMF Iter:  450 Total= -2721.667475874335 G=    7.274e-05 #SS:   24
+ ooCMF Iter:  451 Total= -2721.667475875419 G=    4.154e-05 #SS:   24
+ ooCMF Iter:  452 Total= -2721.667475875724 G=    3.598e-05 #SS:   24
+ ooCMF Iter:  453 Total= -2721.667475876086 G=    1.555e-05 #SS:   24
+ ooCMF Iter:  454 Total= -2721.667475876164 G=    7.323e-06 #SS:   24
+ ooCMF Iter:  455 Total= -2721.667475872692 G=    1.291e-04 #SS:   24
+ ooCMF Iter:  456 Total= -2721.667475875303 G=    6.534e-05 #SS:   24
+ ooCMF Iter:  457 Total= -2721.667475875982 G=    2.833e-05 #SS:   24
+ ooCMF Iter:  458 Total= -2721.667475875947 G=    2.831e-05 #SS:   24
+ ooCMF Iter:  459 Total= -2721.667475875569 G=    5.088e-05 #SS:   24
+ ooCMF Iter:  460 Total= -2721.667475875841 G=    3.086e-05 #SS:   24
+ ooCMF Iter:  461 Total= -2721.667475875910 G=    2.592e-05 #SS:   24
+ ooCMF Iter:  462 Total= -2721.667475876001 G=    2.360e-05 #SS:   24
+ ooCMF Iter:  463 Total= -2721.667475876050 G=    2.478e-05 #SS:   24
+ ooCMF Iter:  464 Total= -2721.667475875465 G=    5.459e-05 #SS:   24
+ ooCMF Iter:  465 Total= -2721.667475875482 G=    4.443e-05 #SS:   24
+ ooCMF Iter:  466 Total= -2721.667475876161 G=    8.197e-06 #SS:   24
+ ooCMF Iter:  467 Total= -2721.667475876134 G=    1.136e-05 #SS:   24
+ ooCMF Iter:  468 Total= -2721.667475876142 G=    1.177e-05 #SS:   24
+ ooCMF Iter:  469 Total= -2721.667475876166 G=    8.702e-06 #SS:   24
+ ooCMF Iter:  470 Total= -2721.667475876107 G=    1.722e-05 #SS:   24
+ ooCMF Iter:  471 Total= -2721.667475876159 G=    9.659e-06 #SS:   24
+ ooCMF Iter:  472 Total= -2721.667475876177 G=    4.083e-06 #SS:   24
+ ooCMF Iter:  473 Total= -2721.667475876172 G=    5.583e-06 #SS:   24
+ ooCMF Iter:  474 Total= -2721.667475876175 G=    4.924e-06 #SS:   24
+ ooCMF Iter:  475 Total= -2721.667475876174 G=    6.199e-06 #SS:   24
+ ooCMF Iter:  476 Total= -2721.667475876175 G=    6.468e-06 #SS:   24
+ ooCMF Iter:  477 Total= -2721.667475876170 G=    7.684e-06 #SS:   24
+ ooCMF Iter:  478 Total= -2721.667475876168 G=    9.119e-06 #SS:   24
+ ooCMF Iter:  479 Total= -2721.667475876168 G=    6.513e-06 #SS:   24
+ ooCMF Iter:  480 Total= -2721.667475876172 G=    5.864e-06 #SS:   24
+ ooCMF Iter:  481 Total= -2721.667475876175 G=    5.248e-06 #SS:   24
+ ooCMF Iter:  482 Total= -2721.667475876176 G=    4.903e-06 #SS:   24
+ ooCMF Iter:  483 Total= -2721.667475876179 G=    2.956e-06 #SS:   24
+ ooCMF Iter:  484 Total= -2721.667475876180 G=    3.203e-06 #SS:   24
+ ooCMF Iter:  485 Total= -2721.667475876182 G=    1.454e-06 #SS:   24
+ ooCMF Iter:  486 Total= -2721.667475876171 G=    5.656e-06 #SS:   24
+ ooCMF Iter:  487 Total= -2721.667475876178 G=    3.893e-06 #SS:   24
+ ooCMF Iter:  488 Total= -2721.667475876180 G=    3.074e-06 #SS:   24
+ ooCMF Iter:  489 Total= -2721.667475876180 G=    3.026e-06 #SS:   24
+ ooCMF Iter:  490 Total= -2721.667475876179 G=    3.330e-06 #SS:   24
+ ooCMF Iter:  491 Total= -2721.667475876179 G=    3.103e-06 #SS:   24
+ ooCMF Iter:  492 Total= -2721.667475876180 G=    3.010e-06 #SS:   24
+ ooCMF Iter:  493 Total= -2721.667475876180 G=    2.329e-06 #SS:   24
+ ooCMF Iter:  494 Total= -2721.667475876182 G=    1.338e-06 #SS:   24
+ ooCMF Iter:  495 Total= -2721.667475876182 G=    9.342e-07 #SS:   24
+ ooCMF Iter:  496 Total= -2721.667475876176 G=    4.097e-06 #SS:   24
+ ooCMF Iter:  497 Total= -2721.667475876181 G=    2.064e-06 #SS:   24
+ ooCMF Iter:  498 Total= -2721.667475876181 G=    2.143e-06 #SS:   24
+ ooCMF Iter:  499 Total= -2721.667475876182 G=    1.264e-06 #SS:   24
+ ooCMF Iter:  500 Total= -2721.667475876182 G=    1.245e-06 #SS:   24
+ 22.938805 seconds (249.04 M allocations: 10.149 GiB, 7.74% gc time)
+ Solve OO-CMF with DIIS
+ ooCMF Iter:    1 Total= -2721.667475876134 G=    1.593e-05 #SS:    1
+ ooCMF Iter:    2 Total= -2721.667475876182 G=    3.738e-07 #SS:    2
+*ooCMF Iter:    3 Total= -2721.667475876182 G=    6.153e-09 #SS:    3
+  0.132558 seconds (55.98 k allocations: 34.465 MiB)
+ Solve OO-CMF with newton
+ Step:    1 E: -2721.667465505001 G:     4.37e-03  
+ Step:    2 E: -2721.667475876134 G:     1.59e-05  
+ Step:    3 E: -2721.667475876182 G:     3.10e-08  
+ Step:    4 E: -2721.667475876182 G:     2.78e-09  
+  0.060346 seconds (42.03 k allocations: 19.755 MiB)
+ Solve OO-CMF with newton
+ Step:    1 E: -2721.667465505001 G:     4.37e-03  
+ Step:    2 E: -2721.667475876084 G:     2.12e-05  
+ Step:    3 E: -2721.667475876181 G:     2.15e-06  
+ Step:    4 E: -2721.667475876182 G:     2.61e-07  
+ Step:    5 E: -2721.667475876182 G:     1.67e-11  
+  0.078053 seconds (47.45 k allocations: 24.813 MiB)

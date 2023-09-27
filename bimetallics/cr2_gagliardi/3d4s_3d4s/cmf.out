@@ -1,0 +1,29 @@
+
+ansatze = [RASCIAnsatz(12,6,3, (2,8,2), max_h=2, max_p=2), RASCIAnsatz(12,3,6,(2,8,2), max_h=2, max_p=2)]
+
+
+IDX001:DIM16777216:001|002|003|004|005|006|007|008|009|010|011|012|
+IDX002:DIM16777216:013|014|015|016|017|018|019|020|021|022|023|024|
+ Solve OO-CMF with DIIS
+ ooCMF Iter:    1 Total= -2648.880650110161 G=    1.516e-03 #SS:    1
+ ooCMF Iter:    2 Total= -2648.880652661485 G=    1.121e-04 #SS:    2
+*ooCMF Iter:    3 Total= -2648.880652672117 G=    5.670e-07 #SS:    3
+231.413662 seconds (76.92 k allocations: 508.090 MiB, 0.03% gc time, 0.01% compilation time)
+ Solve OO-CMF with DIIS
+ ooCMF Iter:    1 Total= -2648.880651714230 G=    1.575e-03 #SS:    1
+ ooCMF Iter:    2 Total= -2648.880652668354 G=    3.465e-05 #SS:    2
+ ooCMF Iter:    3 Total= -2648.880652671744 G=    7.482e-06 #SS:    3
+*ooCMF Iter:    4 Total= -2648.880652672117 G=    1.228e-07 #SS:    4
+286.882274 seconds (319.95 k allocations: 642.576 MiB, 0.01% gc time, 0.04% compilation time)
+ Solve OO-CMF with newton
+ Step:    1 E: -2648.870988372226 G:     2.11e-01  
+ Step:    2 E: -2648.880651714230 G:     1.58e-03  
+ Step:    3 E: -2648.880652672031 G:     4.80e-06  
+ Step:    4 E: -2648.880652672111 G:     1.17e-07  
+193.658019 seconds (42.34 M allocations: 3.012 GiB, 0.32% gc time, 9.40% compilation time)
+ Solve OO-CMF with newton
+ Step:    1 E: -2648.870988372226 G:     2.11e-01  
+ Step:    2 E: -2648.880650110161 G:     1.52e-03  
+ Step:    3 E: -2648.880652671603 G:     5.00e-06  
+ Step:    4 E: -2648.880652672114 G:     1.25e-07  
+172.681135 seconds (35.44 k allocations: 310.758 MiB, 0.01% gc time)
