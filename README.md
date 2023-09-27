@@ -1,5 +1,5 @@
 # cMF_data
-This directory accumulates the examples of cMF calculation based on [link](https://github.com/nmayhall-vt/ClusterMeanField.jl) implemenattaion.
+This directory accumulates the examples of cMF calculation based on Mayhall group's cMF [link](https://github.com/nmayhall-vt/ClusterMeanField.jl) implemenattaion.
 Perform `CMF` (Cluster Mean-Field) calculations. This is simply a variational optimization of both orbital and cluster state parameters, minimizing the energy of a single TPS. This was originally proposed by Scuseria and coworkers [link](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.92.085101).
 
 ## Installation with Conda
