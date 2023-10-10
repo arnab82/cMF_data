@@ -34,19 +34,19 @@ display(clusters)
 #     verbose=0, gconv=1e-6,tol_d1=1e-8,tol_ci=1e-9,sequential=true, max_iter_oo=100)
 ansatze = [FCIAnsatz(6, 3, 3),FCIAnsatz(6, 3, 3), FCIAnsatz(6,3,3),FCIAnsatz(6, 3, 3),FCIAnsatz(6, 3, 3), FCIAnsatz(6,3,3),FCIAnsatz(6,3,3)]
 
-@time e_cmf, U, d1 = ClusterMeanField.cmf_oo_diis(ints, clusters, init_fspace,ansatze, rdm1,
-                                                                   maxiter_oo   = 500, 
-                                                                   maxiter_ci   = 200, 
-                                                                   maxiter_d1   = 200, 
-                                                                   verbose      = 0, 
-                                                                   tol_oo       = 1e-8, 
-                                                                   tol_d1       = 1e-9, 
-                                                                   tol_ci       = 1e-11, 
-                                                                   sequential   = true, 
-                                                                   alpha        = .1,
-                                                                   diis_start   = 1,
-                                                                   max_ss_size  = 24,
-                                                                   orb_hessian=false)
+# @time e_cmf, U, d1 = ClusterMeanField.cmf_oo_diis(ints, clusters, init_fspace,ansatze, rdm1,
+#                                                                    maxiter_oo   = 500, 
+#                                                                    maxiter_ci   = 200, 
+#                                                                    maxiter_d1   = 200, 
+#                                                                    verbose      = 0, 
+#                                                                    tol_oo       = 1e-8, 
+#                                                                    tol_d1       = 1e-9, 
+#                                                                    tol_ci       = 1e-11, 
+#                                                                    sequential   = true, 
+#                                                                    alpha        = .1,
+#                                                                    diis_start   = 1,
+#                                                                    max_ss_size  = 24,
+#                                                                    orb_hessian=false)
 @time e_cmf, U, d1 = ClusterMeanField.cmf_oo_diis(ints, clusters, init_fspace,ansatze, rdm1,
                                                                    maxiter_oo   = 500, 
                                                                    maxiter_ci   = 200, 
