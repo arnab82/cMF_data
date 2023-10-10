@@ -1,0 +1,112 @@
+IDX001:DIM4096:007|015|027|037|025|013|
+IDX002:DIM4096:019|031|039|029|017|009|
+IDX003:DIM4096:023|035|041|033|021|011|
+IDX004:DIM4096:022|034|042|036|024|012|
+IDX005:DIM4096:018|030|040|032|020|010|
+IDX006:DIM4096:014|026|038|028|016|008|
+IDX007:DIM4096:002|004|006|005|003|001|
+ Solve OO-CMF with DIIS
+Overwritten attributes  conv_tol_residual  of <class 'pyscf.fci.direct_spin1.FCISolver'>
+ ooCMF Iter:    1 Total= -1581.977785439555191 G=    9.682e-01 #SS:    1
+ ooCMF Iter:    2 Total= -1582.264173601196944 G=    2.866e-01 #SS:    2
+ ooCMF Iter:    3 Total= -1582.281585651932573 G=    1.535e-01 #SS:    3
+ ooCMF Iter:    4 Total= -1582.290233059535012 G=    6.961e-02 #SS:    4
+ ooCMF Iter:    5 Total= -1582.291751490845400 G=    3.594e-02 #SS:    5
+ ooCMF Iter:    6 Total= -1582.291775555322602 G=    3.826e-02 #SS:    6
+ ooCMF Iter:    7 Total= -1582.292433243172809 G=    2.458e-02 #SS:    7
+ ooCMF Iter:    8 Total= -1582.292819191424087 G=    2.627e-02 #SS:    8
+ ooCMF Iter:    9 Total= -1582.292999612974427 G=    1.879e-02 #SS:    9
+ ooCMF Iter:   10 Total= -1582.293299189582967 G=    5.463e-03 #SS:   10
+ ooCMF Iter:   11 Total= -1582.293315598839399 G=    2.911e-03 #SS:   11
+ ooCMF Iter:   12 Total= -1582.293317351023688 G=    2.212e-03 #SS:   12
+ ooCMF Iter:   13 Total= -1582.293319492818455 G=    1.676e-03 #SS:   13
+ ooCMF Iter:   14 Total= -1582.293320054727928 G=    1.573e-03 #SS:   14
+ ooCMF Iter:   15 Total= -1582.293323433155592 G=    9.520e-04 #SS:   15
+ ooCMF Iter:   16 Total= -1582.293324649002898 G=    4.610e-04 #SS:   16
+ ooCMF Iter:   17 Total= -1582.293324579590035 G=    6.231e-04 #SS:   17
+ ooCMF Iter:   18 Total= -1582.293324787112624 G=    3.522e-04 #SS:   18
+ ooCMF Iter:   19 Total= -1582.293324986624839 G=    2.280e-04 #SS:   19
+ ooCMF Iter:   20 Total= -1582.293324938654450 G=    4.317e-04 #SS:   20
+ ooCMF Iter:   21 Total= -1582.293325058476512 G=    7.120e-05 #SS:   21
+ ooCMF Iter:   22 Total= -1582.293325059393055 G=    6.925e-05 #SS:   22
+ ooCMF Iter:   23 Total= -1582.293325051994543 G=    1.597e-04 #SS:   23
+ ooCMF Iter:   24 Total= -1582.293325061730229 G=    6.101e-05 #SS:   24
+ ooCMF Iter:   25 Total= -1582.293325063828206 G=    2.669e-05 #SS:   24
+ ooCMF Iter:   26 Total= -1582.293325064125384 G=    9.042e-06 #SS:   24
+ ooCMF Iter:   27 Total= -1582.293325064153805 G=    5.180e-06 #SS:   24
+ ooCMF Iter:   28 Total= -1582.293325064164037 G=    2.736e-06 #SS:   24
+ ooCMF Iter:   29 Total= -1582.293325064168585 G=    2.258e-06 #SS:   24
+ ooCMF Iter:   30 Total= -1582.293325064170403 G=    2.590e-06 #SS:   24
+ ooCMF Iter:   31 Total= -1582.293325064175860 G=    1.214e-06 #SS:   24
+ ooCMF Iter:   32 Total= -1582.293325064176997 G=    6.411e-07 #SS:   24
+ ooCMF Iter:   33 Total= -1582.293325064176315 G=    4.344e-07 #SS:   24
+ ooCMF Iter:   34 Total= -1582.293325064176543 G=    3.882e-07 #SS:   24
+ ooCMF Iter:   35 Total= -1582.293325064176770 G=    2.652e-07 #SS:   24
+ ooCMF Iter:   36 Total= -1582.293325064176770 G=    2.103e-07 #SS:   24
+ ooCMF Iter:   37 Total= -1582.293325064177679 G=    1.592e-07 #SS:   24
+ ooCMF Iter:   38 Total= -1582.293325064177679 G=    9.898e-08 #SS:   24
+ ooCMF Iter:   39 Total= -1582.293325064177452 G=    6.493e-08 #SS:   24
+ ooCMF Iter:   40 Total= -1582.293325064178134 G=    4.493e-08 #SS:   24
+ ooCMF Iter:   41 Total= -1582.293325064178362 G=    4.213e-08 #SS:   24
+ ooCMF Iter:   42 Total= -1582.293325064177452 G=    3.208e-08 #SS:   24
+ ooCMF Iter:   43 Total= -1582.293325064177452 G=    2.429e-08 #SS:   24
+ ooCMF Iter:   44 Total= -1582.293325064177452 G=    2.205e-08 #SS:   24
+ ooCMF Iter:   45 Total= -1582.293325064176997 G=    1.897e-08 #SS:   24
+ ooCMF Iter:   46 Total= -1582.293325064177679 G=    1.295e-08 #SS:   24
+ ooCMF Iter:   47 Total= -1582.293325064177907 G=    1.167e-08 #SS:   24
+*ooCMF Iter:   48 Total= -1582.293325064176543 G=    5.240e-09 #SS:   24
+239.742706 seconds (324.89 M allocations: 50.735 GiB, 3.08% gc time, 50.45% compilation time)
+ Solve OO-CMF with DIIS
+ ooCMF Iter:    1 Total= -1582.291500846101826 G=    6.221e-02 #SS:    1
+ ooCMF Iter:    2 Total= -1582.293201802020349 G=    2.324e-02 #SS:    2
+ ooCMF Iter:    3 Total= -1582.293322425707174 G=    3.066e-03 #SS:    3
+ ooCMF Iter:    4 Total= -1582.293325012228706 G=    4.602e-04 #SS:    4
+ ooCMF Iter:    5 Total= -1582.293325063627890 G=    3.444e-05 #SS:    5
+ ooCMF Iter:    6 Total= -1582.293325064139481 G=    1.210e-05 #SS:    6
+ ooCMF Iter:    7 Total= -1582.293325064176997 G=    8.630e-07 #SS:    7
+ ooCMF Iter:    8 Total= -1582.293325064177679 G=    5.982e-08 #SS:    8
+*ooCMF Iter:    9 Total= -1582.293325064177452 G=    5.025e-09 #SS:    9
+ 31.345293 seconds (3.39 M allocations: 8.399 GiB, 2.57% gc time, 2.47% compilation time)
+ Solve OO-CMF with DIIS
+ ooCMF Iter:    1 Total= -1582.291497349645169 G=    6.139e-02 #SS:    1
+ ooCMF Iter:    2 Total= -1582.293199668161378 G=    2.332e-02 #SS:    2
+ ooCMF Iter:    3 Total= -1582.293322378002131 G=    3.058e-03 #SS:    3
+ ooCMF Iter:    4 Total= -1582.293324994928525 G=    4.909e-04 #SS:    4
+ ooCMF Iter:    5 Total= -1582.293325059988092 G=    7.080e-05 #SS:    5
+ ooCMF Iter:    6 Total= -1582.293325063302291 G=    3.246e-05 #SS:    6
+ ooCMF Iter:    7 Total= -1582.293325064109240 G=    9.594e-06 #SS:    7
+ ooCMF Iter:    8 Total= -1582.293325064176543 G=    1.477e-06 #SS:    8
+ ooCMF Iter:    9 Total= -1582.293325064177679 G=    3.219e-07 #SS:    9
+ ooCMF Iter:   10 Total= -1582.293325064177452 G=    9.835e-08 #SS:   10
+ ooCMF Iter:   11 Total= -1582.293325064177907 G=    2.148e-08 #SS:   11
+ ooCMF Iter:   12 Total= -1582.293325064177679 G=    1.227e-08 #SS:   12
+*ooCMF Iter:   13 Total= -1582.293325064177452 G=    8.935e-09 #SS:   13
+ 57.639671 seconds (4.61 M allocations: 11.519 GiB, 1.45% gc time, 0.60% compilation time)
+ Solve OO-CMF with newton
+ Step:    1 E: -1581.855168360536 G:     1.16e+00  
+ Step:    2 E: -1582.291497349645 G:     6.14e-02  
+ Step:    3 E: -1582.293305558094 G:     4.37e-03  
+ Step:    4 E: -1582.293324294464 G:     7.39e-04  
+ Step:    5 E: -1582.293325029360 G:     1.50e-04  
+ Step:    6 E: -1582.293325062571 G:     3.16e-05  
+ Step:    7 E: -1582.293325064103 G:     6.76e-06  
+ Step:    8 E: -1582.293325064174 G:     1.45e-06  
+ Step:    9 E: -1582.293325064178 G:     3.12e-07  
+ Step:   10 E: -1582.293325064177 G:     6.72e-08  
+ Step:   11 E: -1582.293325064177 G:     1.45e-08  
+ Step:   12 E: -1582.293325064177 G:     3.11e-09   
+ 53.406946 seconds (48.00 M allocations: 8.241 GiB, 1.69% gc time, 34.57% compilation time)
+ Solve OO-CMF with newton
+ Step:    1 E: -1581.855168360536 G:     1.16e+00  
+ Step:    2 E: -1582.291500846102 G:     6.22e-02  
+ Step:    3 E: -1582.293306830185 G:     4.24e-03  
+ Step:    4 E: -1582.293324349325 G:     7.14e-04  
+ Step:    5 E: -1582.293325032023 G:     1.44e-04  
+ Step:    6 E: -1582.293325062703 G:     3.04e-05  
+ Step:    7 E: -1582.293325064110 G:     6.48e-06  
+ Step:    8 E: -1582.293325064174 G:     1.39e-06  
+ Step:    9 E: -1582.293325064177 G:     2.97e-07  
+ Step:   10 E: -1582.293325064178 G:     6.37e-08  
+ Step:   11 E: -1582.293325064177 G:     1.37e-08  
+ Step:   12 E: -1582.293325064178 G:     2.93e-09   
+ 22.361734 seconds (831.23 k allocations: 5.019 GiB, 1.74% gc time)
