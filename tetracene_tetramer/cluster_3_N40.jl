@@ -1,8 +1,10 @@
-
-using  NPZ, JLD2,ClusterMeanField,InCoreIntegrals,QCBase,ActiveSpaceSolvers
-# using Plots
-
-
+using RDM
+using ClusterMeanField
+using ActiveSpaceSolvers
+using NPZ
+using JLD2
+using QCBase
+using InCoreIntegrals
 
 # build this just so we can print out molden files to view the MOs
 molecule = "
@@ -141,156 +143,33 @@ mol     = Molecule(0, 1, atoms,basis);
 
 
 #load integrals from disk
-ints = InCoreInts(
-    npzread("/Users/ayush/workspace/cmf/project_hessian_debug/ClusterMeanField.jl/examples/first_set/tetracene_tetramer/integrals_h0.npy"), 
-    npzread("/Users/ayush/workspace/cmf/project_hessian_debug/ClusterMeanField.jl/examples/first_set/tetracene_tetramer/integrals_h1.npy"), 
-    npzread("/Users/ayush/workspace/cmf/project_hessian_debug/ClusterMeanField.jl/examples/first_set/tetracene_tetramer/integrals_h2.npy") 
-);
-C = npzread("/Users/ayush/workspace/cmf/project_hessian_debug/ClusterMeanField.jl/examples/first_set/tetracene_tetramer/mo_coeffs_act.npy")
-S = npzread("/Users/ayush/workspace/cmf/project_hessian_debug/ClusterMeanField.jl/examples/first_set/tetracene_tetramer/overlap_mat.npy");
-D = npzread("/Users/ayush/workspace/cmf/project_hessian_debug/ClusterMeanField.jl/examples/first_set/tetracene_tetramer/density_mat.npy");
+@load "/home/arnabbachhar/workspace/project_hessian/new_cmf/ClusterMeanField.jl/examples/tetracene_tetramer/ints_C_TT.jld2"
 
+# ClusterMeanField.pyscf_write_molden(mol,C_sorted,filename="orbitals.molden");
 
-# using LinearAlgebra, Printf
-# using Clustering
-# using SpectralClustering
-# using Random
-# using Distances
-# Random.seed!(2)
-
-# function cluster_orbitals(A, n_clusters)
-#     """
-#     A is adjacency matrix
-#     """
-    
-#     L = Diagonal([sum(A[i,:]) for i in 1:size(A,1)]) - A;
-#     F = eigen(L);
-#     perm = sortperm(F.values, by=abs)
-#     F.values .= F.values[perm]
-#     F.vectors .= F.vectors[:,perm]
-
-#     print(" Laplacian Eigenvalues\n")
-#     for (fi_idx, fi) in enumerate(F.values)
-#         @printf(" %4i %12.8f\n", fi_idx, fi)
-#     end
-    
-#     p1 = plot(F.values)
-    
-#     A = abs.(F.vectors[:,1:n_clusters]*F.vectors[:,1:n_clusters]')
-#     p2 = heatmap(abs.(A), aspect_ratio=:equal, title="Projector", yflip = true)
-    
-#     clustering = clusterize(KMeansClusterizer(n_clusters), A).assignments;
-
-#     perm = sortperm(clustering)
-#     p3 = heatmap(abs.(A[perm,perm]), aspect_ratio=:equal, title="Projector", yflip = true)
-
-#     clusters = [ [] for i in 1:n_clusters]
-#     for (idx,i) in enumerate(clustering)
-#         push!(clusters[i],idx)
-#     end
-
-#     plot(p1, p2, p3, layout = @layout [a; b c])
-
-#     return perm, clusters
-# end
-@load "/Users/ayush/workspace/cmf/project_hessian_debug/ClusterMeanField.jl/examples/first_set/tetracene_tetramer/clustering.jld2"
-n_clusters = 4
-# adjacency = abs.(C'*D*C)
-# perm, cluster_list = cluster_orbitals(adjacency, n_clusters)
-print(perm)
-    
-# p1 = heatmap(adjacency, aspect_ratio=:equal, title="Adjacency", yflip = true) 
-# p2 = heatmap(adjacency[perm, perm], aspect_ratio=:equal, title="Adjacency (sorted)", yflip = true) 
-
-ints_sorted = deepcopy(ints)
-ints_sorted.h1 .= ints.h1[perm,perm]
-ints_sorted.h2 .= ints.h2[perm,perm,perm,perm];
-C_sorted = C[:,perm]
-# FermiCG.pyscf_write_molden(mol,C_sorted,filename="orbitals.molden");
-
-# plot(p1, p2, layout = @layout [a b])
 
 # define clusters
-
 cluster_list = [collect(1:10), collect(11:20), collect(21:30), collect(31:40)]
 clusters = [MOCluster(i,collect(cluster_list[i])) for i = 1:length(cluster_list)]
-init_fspace = [ (5,5) for i in 1:n_clusters]
+init_fspace = [ (5,5) for i in 1:4]
 display(clusters)
-display(init_fspace)
-using RDM
 
-rdm1 = RDM1(n_orb(ints_sorted))
-ansatze = [FCIAnsatz(10, 5, 5), FCIAnsatz(10,5,5),FCIAnsatz(10, 5, 5),FCIAnsatz(10, 5, 5)]
-# @time e_cmf, U, d1 = ClusterMeanField.cmf_oo_diis(ints_sorted, clusters, init_fspace,ansatze, rdm1,
-#                                                                    maxiter_oo   = 500, 
-#                                                                    maxiter_ci   = 200, 
-#                                                                    maxiter_d1   = 200, 
-#                                                                    verbose      = 0, 
-#                                                                    tol_oo       = 1e-8, 
-#                                                                    tol_d1       = 1e-12, 
-#                                                                    tol_ci       = 1e-14, 
-#                                                                    sequential   = true, 
-#                                                                    alpha        = .2,
-#                                                                    diis_start   = 1,
-#                                                                    max_ss_size  = 24,
-#                                                                    orb_hessian=false)
-# ansatze = [RASCIAnsatz(10, 5, 5,(2,6,2)), RASCIAnsatz(10,5,5,(2,6,2)),RASCIAnsatz(10, 5, 5,(2,6,2)),RASCIAnsatz(10, 5, 5,(2,6,2))]
-@time e_cmf, U, d1 = ClusterMeanField.cmf_oo_diis(ints_sorted, clusters, init_fspace,ansatze, rdm1,
-                                                                   maxiter_oo   = 500, 
-                                                                   maxiter_ci   = 200, 
-                                                                   maxiter_d1   = 200, 
-                                                                   verbose      = 0, 
-                                                                   tol_oo       = 1e-6, 
-                                                                   tol_d1       = 1e-7, 
-                                                                   tol_ci       = 1e-8, 
-                                                                   sequential   = true, 
-                                                                   alpha        = .2,
-                                                                   diis_start   = 1,
-                                                                   max_ss_size  = 24,
-                                                                   zero_intra_rots=true,
-                                                                   orb_hessian=true)
-
-@time e_cmf, U, D  =ClusterMeanField.cmf_oo(ints_sorted, clusters, init_fspace, rdm1,
-                                        max_iter_oo=150, verbose=0, gconv=1e-6, method="bfgs");
-
-@time e_cmf, Ugd, d1gd = ClusterMeanField.cmf_oo_gd(ints, clusters, init_fspace, rdm1, 
-                                        maxiter_oo = 500,
-                                        tol_oo=1e-6, 
-                                        tol_d1=1e-7, 
-                                        tol_ci=1e-8, 
-                                        alpha=.2, 
-                                        sequential=true)
-            
-@time e_cmf, U, d1 = ClusterMeanField.cmf_oo_diis(ints, clusters, init_fspace, rdm1,
-                                       maxiter_oo   = 500, 
-                                       maxiter_ci   = 200, 
-                                       maxiter_d1   = 200, 
-                                       verbose      = 0, 
-                                       tol_oo       = 1e-6, 
-                                       tol_d1       = 1e-7, 
-                                       tol_ci       = 1e-8, 
-                                       sequential   = false, 
-                                       alpha        = .2,
-                                       diis_start   = 1,
-                                       max_ss_size  = 24)
-            
-                                    
-@time e_cmf, U, d1 = ClusterMeanField.cmf_oo_newton(ints, clusters, init_fspace,rdm1, maxiter_oo = 400,
-                                       tol_oo=1e-6, 
-                                       tol_d1=1e-7, 
-                                       tol_ci=1e-8,
-                                       verbose=4, 
-                                       zero_intra_rots = true,
-                                       zero_intra_rot_hessian=true,
-                                       sequential=true)
-                                       
-e_cmf, U_n, d1_n = ClusterMeanField.cmf_oo_newton2(ints, clusters, init_fspace, ansatze,RDM1(rdm1, rdm1), maxiter_oo = 1200,
-                           tol_oo=1e-8, 
+# ansatze=[FCIAnsatz(10, 5, 5),FCIAnsatz(10, 5, 5), FCIAnsatz(10,5,5),FCIAnsatz(10, 5, 5)]
+# ansatze = [RASCIAnsatz(10,5, 5, (2,6,2), max_h=2, max_p=2),RASCIAnsatz(10,5, 5, (2,6,2), max_h=2, max_p=2),RASCIAnsatz(10,5, 5, (2,6,2), max_h=2, max_p=2),RASCIAnsatz(10,5, 5, (2,6,2), max_h=2, max_p=2)] #FCI type RASCI calculation
+# ansatze = [RASCIAnsatz(10, 5, 5, (2,6,2), max_h=0, max_p=0), RASCIAnsatz(10, 5, 5, (2,6,2), max_h=0, max_p=0),RASCIAnsatz(10, 5, 5, (2,6,2), max_h=0, max_p=0),RASCIAnsatz(10, 5, 5, (2,6,2), max_h=0, max_p=0)] #CASCI type RASCI calculation
+for i in ansatze
+    display(i)
+end
+d1=RDM1(n_orb(ints_sorted))
+e_cmf, U_cmf, D= ClusterMeanField.cmf_oo_newton(ints_sorted, clusters, init_fspace,ansatze,d1,tol_oo=1e-7, tol_d1=1e-9, tol_ci=1e-10);
+e_cmf, U_n, d1_n = ClusterMeanField.cmf_oo_newton(ints_sorted, clusters, init_fspace, ansatze,d1, maxiter_oo = 400,
+                           tol_oo=1e-7, 
                            tol_d1=1e-9, 
                            tol_ci=1e-10,
                            verbose=4, 
-                           zero_intra_rots = true,
+                           zero_intra_rots = false,
                            sequential=true)
-ints = orbital_rotation(ints, U)           
-@save "data_cmf.jld2" clusters init_fspace ints d1 e_cmf U 
-            
+C_cmf = C_sorted * U_cmf
+ints_cmf = RDM.orbital_rotation(ints_sorted, U_cmf);
+# ClusterMeanField.pyscf_write_molden(mol,C_cmf,filename="orbitals_cmf_TT.molden");
+# @save "data_cmf_TT.jld2"  ints_cmf U_cmf D clusters init_fspace
